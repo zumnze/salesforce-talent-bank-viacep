@@ -2,7 +2,7 @@
 
 public class ViaCEPService {
     
-    // Esta estrutura define o que o Flow vai receber de volta
+    // essa estrutura vai definir o que o Flow vai receber
     public class Result {
         @InvocableVariable(label='Logradouro') public String logradouro;
         @InvocableVariable(label='Bairro') public String bairro;
@@ -19,7 +19,7 @@ public class ViaCEPService {
         for (String cep : ceps) {
             Result res = new Result();
             try {
-                // Validação básica de CEP
+                // Validação de CEP
                 if (cep == null || cep.length() < 8) {
                     res.erro = true;
                     results.add(res);
