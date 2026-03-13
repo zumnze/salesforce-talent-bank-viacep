@@ -6,7 +6,6 @@ public class ViaCEPService {
     public class Result {
         @InvocableVariable(label='Logradouro') public String logradouro;
         @InvocableVariable(label='Bairro') public String bairro;
-        // O label é 'Cidade' para o Flow, mas a variável é 'localidade' como na API
         @InvocableVariable(label='Cidade') public String localidade; 
         @InvocableVariable(label='UF') public String uf;
         @InvocableVariable(label='Erro') public Boolean erro;
