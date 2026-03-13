@@ -13,7 +13,7 @@ Aplicação de Banco de Talentos desenvolvida no Salesforce para automatizar o c
 * **JSON Parsing**
 * **Linguagem:** Apex (.cls)
 
-## 📸 Demonstração
+##  Demonstração
 
 - Screen flow
 <img width="1521" height="809" alt="image" src="https://github.com/user-attachments/assets/d81fdc08-6748-4856-bcb9-ef647c20555f" />
