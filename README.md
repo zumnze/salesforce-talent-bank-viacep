@@ -1,13 +1,13 @@
-# 🚀 Salesforce Talent Bank - Integração ViaCEP
+#  Salesforce Talent Bank - Integração ViaCEP
 
 Aplicação de Banco de Talentos desenvolvida no Salesforce para automatizar o cadastro de candidatos utilizando integração com a API ViaCEP.
 
-## 💡 Funcionalidades
+##  Funcionalidades
 * **Busca de Endereço Automática:** O usuário insere o CEP e os campos de Logradouro, Bairro, Cidade e UF são preenchidos instantaneamente.
 * **Interface Reativa:** Utilização de *Action Buttons* em Screen Flows para uma experiência sem recarregamento de página.
 * **Integração Apex:** Classe Apex customizada para consumo de API REST.
 
-## 🛠️ Tecnologias
+##  Tecnologias
 * **Salesforce Flow** (Screen Flow)
 * **Apex Invocable Methods** (Integração HTTP)
 * **JSON Parsing**
